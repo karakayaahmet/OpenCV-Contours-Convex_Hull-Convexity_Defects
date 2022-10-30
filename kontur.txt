@@ -1,0 +1,11 @@
+Kontur (Contour):
+-Şeklin sınırları boyunca devam eden ve benzer renk özelliklerine sahip olan noktalar bütünüdür.
+
+Temel Kontur Tespit Algoritması:
+-Yüksek doğruluklu kontur çizimleri için binary resimleri kullanmalıyız: cv2.cvtColor(), cv2.threshold()
+-Kontur koordinatlarının tespiti: cv2.findContours
+-Bulunan noktaların çizimi: cv2.drawContours()
+
+Convex Hull:
+-Dışbükey örtü anlamına gelir.
+-Amacı içbükey şekiller üzerine dışbükey contourlar çizmektir.
